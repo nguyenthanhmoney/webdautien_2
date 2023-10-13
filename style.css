@@ -1,0 +1,86 @@
+h1{
+
+   color:#fff; 
+}
+body, html {
+    
+    margin: 0;
+    pading: 0;
+
+}
+
+body {
+
+    background: url(./img/nen.gif) no-repeat center center fixed;
+    background-size: cover;
+}
+img {
+margin-top: 10px ;
+width: 120px;
+height: 120px;
+margin-left: 10px;
+}
+header {
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+header > img {
+    width: 9em;
+    height: 9em;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    box-shadow: blue 0px 2px 8px 0px;
+}
+header > h1 {
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 2em;
+    background-color: #000;
+    color:#fff;
+    padding:0.3em 0,7em;
+    border: 2px solid #fffa;
+}
+ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 autu;
+    padding: 2em;
+}
+ul > li {
+    background-color: #fff;
+    border-radius: 1em;
+    padding: 0,5;
+    margin: 1em 0;
+    align-items: center;
+    display: flex;
+    display: inline-block;
+}
+ul > li > a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 0em;
+}
+ul {
+    text-align: center;
+    padding: auto;
+}
+.sdt {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.cuoi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sothich-list{
+
+}
